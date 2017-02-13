@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Besenica\Hangman.csproj", "{87D3BF85-5150-45A8-9B31-3539D44CEEF2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HangmanSetup", "HangmanSetup\HangmanSetup.vdproj", "{5E54B233-7829-4010-97AD-2906D7A21F6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D3BF85-5150-45A8-9B31-3539D44CEEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D3BF85-5150-45A8-9B31-3539D44CEEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D3BF85-5150-45A8-9B31-3539D44CEEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D3BF85-5150-45A8-9B31-3539D44CEEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E54B233-7829-4010-97AD-2906D7A21F6C}.Debug|Any CPU.ActiveCfg = Debug
+		{5E54B233-7829-4010-97AD-2906D7A21F6C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

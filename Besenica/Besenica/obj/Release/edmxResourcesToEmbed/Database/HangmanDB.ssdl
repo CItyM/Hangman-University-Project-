@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HangmanDBModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=&quot;C:\Users\CityM\Documents\Visual Studio 2015\Projects\Besenica\Besenica\Database\HangmanDB.db&quot;" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Words">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WordName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="CategoryID" Type="integer" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="HangmanDBModelStoreContainer">
+    <EntitySet Name="Categories" EntityType="Self.Categories" store:Type="Tables" />
+    <EntitySet Name="Words" EntityType="Self.Words" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BesenitsaModelStoreContainer" CdmEntityContainer="BesenitsaDB">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="BesenitsaModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Words">
+      <EntityTypeMapping TypeName="BesenitsaModel.Word">
+        <MappingFragment StoreEntitySet="Words">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Word1" ColumnName="Word" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
